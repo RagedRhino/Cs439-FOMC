@@ -3,11 +3,13 @@ Predictive model, to predict market movement after FOMC meeting, based on FOMC m
 
 Here's a summary of what each file does:
 
+install
+installs the required files to run the code. 
+
 frequency_analysis:
 Performs text preprocessing and word frequency analysis on FOMC speeches
 Creates visualizations:
 Top 20 most frequent words
-Word frequency distribution
 Word frequencies by market reaction (Up/Down)
 Generates two CSV files:
 word_frequencies.csv: Basic word frequency counts
